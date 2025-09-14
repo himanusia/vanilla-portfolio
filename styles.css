@@ -132,12 +132,26 @@ body {
 
 .project {
     padding-top: 5svh;
+    overflow-y: auto;
 
-    h2 {
+    .project-title {
         margin-bottom: 0;
     }
 
-    p {
+    .project-description {
         margin-top: 0;
+        font-size: 20px;
+    }
+
+    .project-image {
+        margin-top: 20px;
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    p {
+        font-size:15px;
     }
 }
