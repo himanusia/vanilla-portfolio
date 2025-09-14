@@ -156,3 +156,12 @@ body {
         font-size:15px;
     }
 }
+
+.github-logo {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+}
