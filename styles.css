@@ -70,14 +70,18 @@ body {
     display: flex;
     flex-direction: column;
     color: #fff;
+    text-align: center;
+    padding-top: 10svh; ;
 
-    .swipe-instructions {
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 32px;
+    .welcome-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        opacity: 50%;
+        transform: translate(0, 20px);
     }
-
+    
     h1 {
         margin: 0;
         font-family: 'Dancing Script', cursive;
