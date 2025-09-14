@@ -46,24 +46,24 @@ body {
 }
 
 .container {
-  display: flex;
-  width: 100vw;
-  height: 100svh;
-  z-index: 1;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  scrollbar-width: none;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+    display: flex;
+    width: 100vw;
+    height: 100svh;
+    z-index: 1;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .page {
-  flex: 0 0 100vw;
-  height: 100svh;
-  scroll-snap-align: center;
-  display: flex;
-  font-size: 3rem;
+    flex: 0 0 100vw;
+    height: 100svh;
+    scroll-snap-align: center;
+    display: flex;
+    font-size: 3rem;
 }
 
 .welcome-page {
