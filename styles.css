@@ -19,16 +19,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    .sprite {
+        position: absolute;
+        transform: translate(calc(-100px), calc(-150px));
+        animation: x 0.66s infinite;
+        -webkit-animation: x 0.66s infinite;
+        -moz-animation: x 0.66s infinite;
+        -o-animation: x 0.66s infinite;
+    }
 }
 
-.sprite {
-    position: absolute;
-    transform: translate(calc(-100px), calc(-150px));
-    animation: x 0.66s infinite;
-    -webkit-animation: x 0.66s infinite;
-    -moz-animation: x 0.66s infinite;
-    -o-animation: x 0.66s infinite;
-}
 
 @keyframes x {
     0%, 50%{
