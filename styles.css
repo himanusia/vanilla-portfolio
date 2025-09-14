@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #1b1b1b;
+    user-select: none;
 }
 
 @font-face {
